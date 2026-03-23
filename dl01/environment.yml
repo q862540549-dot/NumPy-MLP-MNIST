@@ -1,0 +1,14 @@
+name: mlp_numpy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - ipykernel  # 支持在 VS Code 中使用 Jupyter Notebook 调试
+  - pip
+  - pip:
+    - seaborn  # 用于画更漂亮的混淆矩阵
