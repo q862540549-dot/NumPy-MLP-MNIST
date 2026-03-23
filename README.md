@@ -27,3 +27,6 @@ conda activate mlp_numpy
 
 # 2. 或者手动安装依赖
 pip install numpy matplotlib scikit-learn
+
+# 3. 运行与实验
+python train.py
